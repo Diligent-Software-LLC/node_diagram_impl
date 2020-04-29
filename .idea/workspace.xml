@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="824ea938-6d29-4aed-82ba-7f40135e282b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/node_diagram_impl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/node_diagram_impl.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/node_diagram_impl/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_diagram_impl.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/node_diagram_impl_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bEZ7rGqXtKws4VtgoNf2a0Uxke" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.youtrack.notifications" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="ytplugin.issueListCompactView" value="true" />
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="824ea938-6d29-4aed-82ba-7f40135e282b" name="Default Changelist" comment="" />
+      <created>1588199049016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588199049016</updated>
+      <workItem from="1588199050548" duration="1717000" />
+    </task>
+    <servers>
+      <YouTrack url="https://macbook-pro.local:8443">
+        <option name="defaultSearch" value="project: Diagram Subsystem:{ Node } Component: Implementation Sprints: 1 State: Setup" />
+        <username>admin</username>
+      </YouTrack>
+    </servers>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="434" y="175" key="#Servers" timestamp="1588199079754">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="434" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588199079754" />
+    <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1588199136547">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1545" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1588199136547" />
+    <state width="1545" height="269" key="GridCell.Tab.0.center" timestamp="1588199136546">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1545" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1588199136546" />
+    <state width="1545" height="269" key="GridCell.Tab.0.left" timestamp="1588199136546">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1545" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1588199136546" />
+    <state width="1545" height="269" key="GridCell.Tab.0.right" timestamp="1588199136546">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1545" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1588199136546" />
+    <state x="426" y="235" width="816" height="550" key="find.popup" timestamp="1588199419166">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="426" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1588199419166" />
+    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1588200801649">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1588200801649" />
+  </component>
+</project>
