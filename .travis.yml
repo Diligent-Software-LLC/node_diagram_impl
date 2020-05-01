@@ -4,10 +4,4 @@ language: ruby
 cache: bundler
 rvm:
   - 2.6.5
-deploy:
-  provider: rubygems
-  api_key: $RUBYGEMS_API_KEY
-  skip_cleanup: true
-  on:
-    tags: true
 before_install: gem install bundler -v 2.1.2
