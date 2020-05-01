@@ -26,7 +26,7 @@
     <orderEntry type="library" scope="PROVIDED" name="data_structure_int (v1.0.0, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="data_structure_library (v2.1.0, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diagram (v0.1.0, RVM: ruby-2.6.5) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="diagram_impl (v0.1.0, RVM: ruby-2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diagram_impl (v0.1.1, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diagram_int (v0.1.0, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="docile (v1.3.2, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="linked_list_impl (v1.1.0, RVM: ruby-2.6.5) [gem]" level="application" />
