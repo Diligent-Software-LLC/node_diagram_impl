@@ -14,8 +14,8 @@ reliable, integrable, and endurable Diagram library. Make a donation at the
 project's collective page: https://opencollective.com/diagram. One-time and
 recurring donations are available at $1, $2, $4, $8, and $16. Greatly
 appreciated.}
-  spec.homepage              = "https://docs.diligentsoftware.org/diagram-1/" +
-      "node/implementation"
+  spec.homepage              =
+      "https://docs.diligentsoftware.org/diagram-1/node/implementation"
   spec.license               = "GPL-3.0"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
 
@@ -43,6 +43,6 @@ appreciated.}
   spec.add_development_dependency 'bundler', '~> 2.1'
   spec.add_development_dependency 'simplecov', '~> 0'
   spec.add_development_dependency 'diagram', '~> 0'
-  spec.add_development_dependency 'node', '~> 4'
+  # spec.add_development_dependency 'node', '~> 5'
 
 end

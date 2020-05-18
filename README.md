@@ -4,7 +4,7 @@ A NodeDiagram library implementation.
 
 ## Installation
 
-- Refer the Implementation's 
+- Refer Implementation's 
 [Packages](https://docs.diligentsoftware.org/diagram-1/node/packages#implementation).
 
 ## Documentation
