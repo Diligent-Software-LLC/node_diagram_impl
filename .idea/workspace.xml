@@ -335,10 +335,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="411" y="183" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.975@0.23.1680.975" timestamp="1588257636775" />
-    <state x="159" y="66" width="1355" height="841" key="CommitChangelistDialog2" timestamp="1589831129162">
+    <state x="159" y="66" width="1355" height="841" key="CommitChangelistDialog2" timestamp="1589836701236">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="159" y="66" width="1355" height="841" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589831129162" />
+    <state x="159" y="66" width="1355" height="841" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589836701236" />
     <state width="1549" height="269" key="GridCell.Tab.0.bottom" timestamp="1589836221007">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -367,10 +367,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="503" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1588357330943" />
-    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589831147916">
+    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589836723884">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589831147916" />
+    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589836723884" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_diagram_impl@test_drpq_x5.rcov" NAME="test_drpq_x5 Coverage Results" MODIFIED="1588290937572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
