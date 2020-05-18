@@ -12,7 +12,8 @@ class NodeDiagramTest < Minitest::Test
   # test_conf_doc_f_ex().
   # @description
   #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
-  #   and .yardopts files exist.
+  #   .yardopts, .gitignore, Changelog.md, CODE_OF_CONDUCT.md,
+  #   node_diagram_impl.gemspec, Gemfile.lock, and Rakefile files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -21,6 +22,12 @@ class NodeDiagramTest < Minitest::Test
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
     assert_path_exists('.yardopts')
+    assert_path_exists('.gitignore')
+    assert_path_exists('Changelog.md')
+    assert_path_exists('CODE_OF_CONDUCT.md')
+    assert_path_exists('node_diagram_impl.gemspec')
+    assert_path_exists('Gemfile.lock')
+    assert_path_exists('Rakefile')
 
   end
 
@@ -39,7 +46,7 @@ class NodeDiagramTest < Minitest::Test
     @node2 = Node.new(nil, :test_symbol, nil)
   end
 
-  # NodeDiagram.base_label()
+  # NodeDiagram.base_label().
 
   # test_cbl_x().
   # @description
@@ -52,7 +59,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # NodeDiagram.data_label()
+  # NodeDiagram.data_label().
 
   # test_cdl_x().
   # @description
@@ -65,7 +72,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # initialize(n = nil)
+  # initialize(n = nil).
 
   # test_init_x1().
   # @description
@@ -76,7 +83,7 @@ class NodeDiagramTest < Minitest::Test
     assert_same(CLASS, diagram_inst.class())
     expected_n_str = @node1.to_s()
     assert_equal(expected_n_str, diagram_inst.node_string())
-    expected_dt = "data: #{@node1.d()}"
+    expected_dt = "data: #{@node1.data()}"
     actual_dt   = diagram_inst.data_text()
     assert_equal(expected_dt, actual_dt)
     expected_dlp = ' ' * 12
@@ -98,7 +105,7 @@ class NodeDiagramTest < Minitest::Test
 
     common = Minitest::Mock.new()
     common.expect(:to_s, @node2.to_s())
-    common.expect(:d, :test_symbol)
+    common.expect(:data, :test_symbol)
     common.expect(:base, false)
     common.expect(:no_attachments, false)
     common.expect(:back_attached, true)
@@ -108,7 +115,7 @@ class NodeDiagramTest < Minitest::Test
     expected_ns = @node2.to_s()
     actual_ns   = diagram_inst.node_string()
     assert_equal(expected_ns, actual_ns)
-    expected_dt = "data: #{@node2.d()}"
+    expected_dt = "data: #{@node2.data()}"
     actual_dt   = diagram_inst.data_text()
     assert_equal(expected_dt, actual_dt)
     expected_dlp = ' ' * 4
@@ -123,7 +130,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # node_string()
+  # node_string().
 
   # test_ns_x().
   # @description
@@ -137,7 +144,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # data_text()
+  # data_text().
 
   # test_dt_x().
   # @description
@@ -145,13 +152,13 @@ class NodeDiagramTest < Minitest::Test
   def test_dt_x()
 
     d_inst   = NodeDiagram.new(@node2)
-    expected = "data: #{@node2.d()}"
+    expected = "data: #{@node2.data()}"
     actual   = d_inst.data_text()
     assert_equal(expected, actual)
 
   end
 
-  # dl_padding()
+  # dl_padding().
 
   # test_dlp_x().
   # @description
@@ -166,7 +173,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # dr_padding()
+  # dr_padding().
 
   # test_drp_x().
   # @description
@@ -181,7 +188,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # kind()
+  # kind().
 
   # test_kind_x().
   # @description
@@ -195,7 +202,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # lower_text()
+  # lower_text().
 
   # test_lt_x().
   # @description
@@ -204,12 +211,12 @@ class NodeDiagramTest < Minitest::Test
 
     d_inst   = NodeDiagram.new(@node1)
     expected = "data: ".freeze()
-    actual   = d_inst.lower_text(@node1.d())
+    actual   = d_inst.lower_text(@node1.data())
     assert_equal(expected, actual)
 
   end
 
-  # upper_text()
+  # upper_text().
 
   # test_ut_x1().
   # @description
@@ -230,7 +237,7 @@ class NodeDiagramTest < Minitest::Test
 
     common = Minitest::Mock.new()
     common.expect(:to_s, @node1.to_s())
-    common.expect(:d, nil)
+    common.expect(:data, nil)
     common.expect(:base, false)
     common.expect(:no_attachments, false)
     common.expect(:back_attached, true)
@@ -242,7 +249,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # dlp_quantity()
+  # dlp_quantity().
 
   # test_dlpq_x1().
   # @description
@@ -252,7 +259,7 @@ class NodeDiagramTest < Minitest::Test
 
     common = Minitest::Mock.new()
     common.expect(:to_s, @node1.to_s())
-    common.expect(:d, nil)
+    common.expect(:data, nil)
     common.expect(:base, false)
     common.expect(:no_attachments, false)
     common.expect(:back_attached, true)
@@ -273,7 +280,7 @@ class NodeDiagramTest < Minitest::Test
     pioneer = Minitest::Mock.new()
     pioneer.expect(:to_s, @node1.to_s())
     sym_str = "#{LONG_SYMBOL}"
-    pioneer.expect(:d, sym_str.slice(0, 20))
+    pioneer.expect(:data, sym_str.slice(0, 20))
     pioneer.expect(:base, false)
     pioneer.expect(:no_attachments, false)
     pioneer.expect(:back_attached, false)
@@ -294,7 +301,7 @@ class NodeDiagramTest < Minitest::Test
     pioneer = Minitest::Mock.new()
     pioneer.expect(:to_s, @node1.to_s())
     sym_str = "#{LONG_SYMBOL}"
-    pioneer.expect(:d, sym_str.slice(0, 20))
+    pioneer.expect(:data, sym_str.slice(0, 20))
     pioneer.expect(:base, false)
     pioneer.expect(:no_attachments, false)
     pioneer.expect(:back_attached, false)
@@ -314,7 +321,7 @@ class NodeDiagramTest < Minitest::Test
 
     pioneer = Minitest::Mock.new()
     pioneer.expect(:to_s, @node1.to_s())
-    pioneer.expect(:d, true)
+    pioneer.expect(:data, true)
     pioneer.expect(:base, false)
     pioneer.expect(:no_attachments, false)
     pioneer.expect(:back_attached, false)
@@ -333,7 +340,7 @@ class NodeDiagramTest < Minitest::Test
 
     lone = Minitest::Mock.new()
     lone.expect(:to_s, @node1.to_s())
-    lone.expect(:d, nil)
+    lone.expect(:data, nil)
     lone.expect(:base, false)
     lone.expect(:no_attachments, true)
     d_inst   = NodeDiagram.new(lone)
@@ -352,7 +359,7 @@ class NodeDiagramTest < Minitest::Test
     lone = Minitest::Mock.new()
     lone.expect(:to_s, @node1.to_s())
     sym_str = "#{LONG_SYMBOL}"
-    lone.expect(:d, sym_str.slice(0, 25))
+    lone.expect(:data, sym_str.slice(0, 25))
     lone.expect(:base, false)
     lone.expect(:no_attachments, true)
     d_inst   = NodeDiagram.new(lone)
@@ -371,7 +378,7 @@ class NodeDiagramTest < Minitest::Test
     lone = Minitest::Mock.new()
     lone.expect(:to_s, @node1.to_s())
     sym_str = "#{LONG_SYMBOL}"
-    lone.expect(:d, sym_str.slice(0, 25))
+    lone.expect(:data, sym_str.slice(0, 25))
     lone.expect(:base, false)
     lone.expect(:no_attachments, true)
     d_inst   = NodeDiagram.new(lone)
@@ -389,7 +396,7 @@ class NodeDiagramTest < Minitest::Test
 
     lone = Minitest::Mock.new()
     lone.expect(:to_s, @node1.to_s())
-    lone.expect(:d, false)
+    lone.expect(:data, false)
     lone.expect(:base, false)
     lone.expect(:no_attachments, true)
     d_inst   = NodeDiagram.new(lone)
@@ -399,7 +406,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # drp_quantity()
+  # drp_quantity().
 
   # test_drpq_x1().
   # @description
@@ -409,7 +416,7 @@ class NodeDiagramTest < Minitest::Test
 
     common = Minitest::Mock.new()
     common.expect(:to_s, @node1.to_s())
-    common.expect(:d, nil)
+    common.expect(:data, nil)
     common.expect(:base, false)
     common.expect(:no_attachments, false)
     common.expect(:back_attached, true)
@@ -430,7 +437,7 @@ class NodeDiagramTest < Minitest::Test
     common = Minitest::Mock.new()
     common.expect(:to_s, @node1.to_s())
     sym_str = "#{LONG_SYMBOL}"
-    common.expect(:d, sym_str.slice(0, 20))
+    common.expect(:data, sym_str.slice(0, 20))
     common.expect(:base, false)
     common.expect(:no_attachments, false)
     common.expect(:back_attached, true)
@@ -451,7 +458,7 @@ class NodeDiagramTest < Minitest::Test
     common = Minitest::Mock.new()
     common.expect(:to_s, @node1.to_s())
     sym_str = "#{LONG_SYMBOL}"
-    common.expect(:d, sym_str.slice(0, 20))
+    common.expect(:data, sym_str.slice(0, 20))
     common.expect(:base, false)
     common.expect(:no_attachments, false)
     common.expect(:back_attached, true)
@@ -471,7 +478,7 @@ class NodeDiagramTest < Minitest::Test
 
     common = Minitest::Mock.new()
     common.expect(:to_s, @node1.to_s())
-    common.expect(:d, false)
+    common.expect(:data, false)
     common.expect(:base, false)
     common.expect(:no_attachments, false)
     common.expect(:back_attached, true)
@@ -491,7 +498,7 @@ class NodeDiagramTest < Minitest::Test
 
     base = Minitest::Mock.new()
     base.expect(:to_s, @node1.to_s())
-    base.expect(:d, nil)
+    base.expect(:data, nil)
     base.expect(:base, true)
     d_inst   = NodeDiagram.new(base)
     expected = ' ' * 13
@@ -509,7 +516,7 @@ class NodeDiagramTest < Minitest::Test
     base = Minitest::Mock.new()
     base.expect(:to_s, @node1.to_s())
     sym_str = "#{LONG_SYMBOL}"
-    base.expect(:d, sym_str.slice(0, 25))
+    base.expect(:data, sym_str.slice(0, 25))
     base.expect(:base, true)
     d_inst   = NodeDiagram.new(base)
     expected = ''.freeze()
@@ -527,7 +534,7 @@ class NodeDiagramTest < Minitest::Test
     base = Minitest::Mock.new()
     base.expect(:to_s, @node1.to_s())
     sym_str = "#{LONG_SYMBOL}"
-    base.expect(:d, sym_str.slice(0, 25))
+    base.expect(:data, sym_str.slice(0, 25))
     base.expect(:base, true)
     d_inst   = NodeDiagram.new(base)
     expected = ''.freeze()
@@ -544,7 +551,7 @@ class NodeDiagramTest < Minitest::Test
 
     base = Minitest::Mock.new()
     base.expect(:to_s, @node1.to_s())
-    base.expect(:d, :test_symbol)
+    base.expect(:data, :test_symbol)
     base.expect(:base, true)
     d_inst   = NodeDiagram.new(base)
     expected = ' ' * 7
@@ -553,7 +560,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # lower_body()
+  # lower_body().
 
   # test_lb_x().
   # @description
@@ -562,13 +569,13 @@ class NodeDiagramTest < Minitest::Test
 
     d_inst   = NodeDiagram.new(@node2)
     expected = d_inst.dl_padding() + NodeDiagram.data_label() +
-        NodeDiagram.space() + "#{@node2.d()}" + d_inst.dr_padding()
+        NodeDiagram.space() + "#{@node2.data()}" + d_inst.dr_padding()
     actual   = d_inst.lower_body()
     assert_equal(expected, actual)
 
   end
 
-  # row()
+  # row().
 
   # test_row_x1().
   # @description
@@ -594,7 +601,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # kind_strategy()
+  # kind_strategy().
 
   # test_ks_x1().
   # @description
@@ -602,7 +609,7 @@ class NodeDiagramTest < Minitest::Test
   def test_ks_x1()
 
     lone = Minitest::Mock.new()
-    lone.expect(:d, :test_symbol)
+    lone.expect(:data, :test_symbol)
     lone.expect(:base, false)
     lone.expect(:no_attachments, true)
     d_inst   = NodeDiagram.new(lone)
@@ -621,7 +628,7 @@ class NodeDiagramTest < Minitest::Test
 
     base = Minitest::Mock.new()
     base.expect(:to_s, @node2.to_s())
-    base.expect(:d, :test_symbol)
+    base.expect(:data, :test_symbol)
     base.expect(:base, true)
     base.expect(:base, true)
     d_inst   = NodeDiagram.new(base)
@@ -638,7 +645,7 @@ class NodeDiagramTest < Minitest::Test
 
     common = Minitest::Mock.new()
     common.expect(:to_s, @node2.to_s())
-    common.expect(:d, :test_symbol)
+    common.expect(:data, :test_symbol)
     common.expect(:base, false)
     common.expect(:no_attachments, false)
     common.expect(:back_attached, true)
@@ -661,7 +668,7 @@ class NodeDiagramTest < Minitest::Test
 
     pioneer = Minitest::Mock.new()
     pioneer.expect(:to_s, @node2.to_s())
-    pioneer.expect(:d, :test_symbol)
+    pioneer.expect(:data, :test_symbol)
     pioneer.expect(:base, false)
     pioneer.expect(:no_attachments, false)
     pioneer.expect(:back_attached, false)
@@ -677,7 +684,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # form_lower()
+  # form_lower().
 
   # test_fl_x().
   # @description
@@ -691,7 +698,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # form_upper()
+  # form_upper().
 
   # test_fu_x().
   # @description
@@ -705,7 +712,7 @@ class NodeDiagramTest < Minitest::Test
 
   end
 
-  # form()
+  # form().
 
   # test_form_x().
   # @description

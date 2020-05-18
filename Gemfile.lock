@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    node_diagram_impl (0.1.0)
+    node_diagram_impl (0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -57,7 +57,7 @@ GEM
       linked_list_int (~> 2)
       linked_list_iterator (~> 1)
       node (~> 4)
-    minitest (5.14.0)
+    minitest (5.14.1)
     node (4.2.0)
       node_impl (~> 3)
     node_adapter (0.1.1)
@@ -70,7 +70,7 @@ GEM
       node_error_int (~> 1.0.0)
     node_error_int (1.0.0)
       data_structure_error (~> 1.2.0)
-    node_impl (3.4.0)
+    node_impl (3.5.0)
       data_library (~> 0)
       node_adapter (~> 0)
       node_error (~> 3)
@@ -89,7 +89,6 @@ DEPENDENCIES
   bundler (~> 2.1)
   diagram (~> 0)
   minitest (~> 5.0)
-  node (~> 4)
   node_diagram_impl!
   rake (~> 13.0)
   simplecov (~> 0)

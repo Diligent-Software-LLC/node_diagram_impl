@@ -73,7 +73,7 @@ class NodeDiagram < Diagram
   def initialize(n = nil)
 
     self.node_string = n.to_s()
-    self.data_text   = n.d()
+    self.data_text   = n.data()
     self.kind        = kind_strategy(n)
     self.dl_padding  = Diagram.space() * dlp_quantity()
     self.dr_padding  = Diagram.space() * drp_quantity()
