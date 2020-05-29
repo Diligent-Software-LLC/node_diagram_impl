@@ -1,6 +1,6 @@
 # node_diagram_impl [![Gem Version](https://badge.fury.io/rb/node_diagram_impl.svg)](https://badge.fury.io/rb/node_diagram_impl) ![Gem](https://img.shields.io/gem/dt/node_diagram_impl) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/node_diagram_impl.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/node_diagram_impl)
 
-A NodeDiagram library implementation.
+A NodeDiagram library's implementation.
 
 ## Installation
 
