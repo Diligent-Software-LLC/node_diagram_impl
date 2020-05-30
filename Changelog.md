@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.3.0, 2020-05-30
+
+### Added
+
+- diagram_comp 'require'ment.
+- linked_list_comp dependency.
+
+### Edited
+
+- Updated development dependencies.
+- Deleted diagram 'require'ment.
+- Formatted.
+
+### Fixed
+
 ## v0.2.0, 2020-05-18
 
 ### Added
