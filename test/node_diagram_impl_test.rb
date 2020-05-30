@@ -5,7 +5,7 @@ require_relative 'test_helper'
 #   Tests the NodeDiagram class.
 class NodeDiagramTest < Minitest::Test
 
-  # Constants
+  # Constants.
   CLASS       = NodeDiagram
   LONG_SYMBOL = :long_symbol_ch_ch_ch_ah_ah_ah
 

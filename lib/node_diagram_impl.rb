@@ -143,11 +143,13 @@ class NodeDiagram < Diagram
   # @return [String]
   #   The upper row's text.
   def upper_text()
+
     if (kind().eql?('base') || kind().eql?('lone'))
       return (NodeDiagram.base_label() + NodeDiagram.space() + node_string())
     else
       return node_string()
     end
+
   end
 
   # dlp_quantity().
@@ -179,17 +181,21 @@ class NodeDiagram < Diagram
     remaining_space = 0
     dt_length       = data_text().length()
     if (kind().eql?('base') || kind().eql?('lone'))
+
       remaining_space = NodeDiagram.bl_length() - dt_length
       quantity        = remaining_space / 2
       if (remaining_space.odd?()) then
         quantity += 1
       end
+
     else
+
       remaining_space = NodeDiagram.cp_length() - dt_length
       quantity        = remaining_space / 2
       if (remaining_space.odd?()) then
         quantity += 1
       end
+
     end
     return quantity
 
@@ -281,7 +287,7 @@ class NodeDiagram < Diagram
   # data_text=(data = nil).
   # @description
   #   Sets data_text.
-  # @param data [String]
+  # @param data [DataType]
   #   A Node's data.
   # @return [String]
   #   The argument.
