@@ -7,5 +7,6 @@ rvm:
 before_install:
   - gem install bundler -v 2.1.2
   - gem install diagram_comp -v '< 2'
-  - gem install node_comp -v '< 2' --development
+  - gem install node_comp -v '< 2'
   - gem install linked_list_comp -v '< 2'
+  - gem install data_library -v '< 1'
