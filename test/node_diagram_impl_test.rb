@@ -510,7 +510,7 @@ class NodeDiagramTest < Minitest::Test
   # test_drpq_x6().
   # @description
   #   The initialization Node's data length is 25. The Node's kind is either
-  # 'base' or 'lone'.
+  #   'base' or 'lone'.
   def test_drpq_x6()
 
     base = Minitest::Mock.new()

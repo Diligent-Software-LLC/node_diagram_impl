@@ -1,22 +1,22 @@
 PATH
   remote: .
   specs:
-    node_diagram_impl (0.3.0)
+    node_diagram_impl (1.0.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    diagram_comp (0.1.0)
-      diagram_impl (~> 0)
+    diagram_comp (1.0.0)
+      diagram_impl (~> 1)
       diagram_int (~> 0)
-    diagram_impl (0.2.0)
+    diagram_impl (1.0.0)
     diagram_int (0.1.0)
     docile (1.3.2)
-    linked_list_comp (0.1.0)
-      linked_list_impl (~> 1)
-      linked_list_int (~> 2)
-    linked_list_impl (1.1.0)
-    linked_list_int (2.0.0)
+    linked_list_comp (1.0.0)
+      linked_list_impl (~> 2)
+      linked_list_int (~> 3)
+    linked_list_impl (2.0.0)
+    linked_list_int (3.0.0)
     minitest (5.14.1)
     node_comp (1.0.0)
       node_impl (~> 4)
@@ -34,8 +34,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.1)
-  diagram_comp (~> 0)
-  linked_list_comp (~> 0)
+  diagram_comp (~> 1)
+  linked_list_comp (~> 1)
   minitest (~> 5.0)
   node_comp (~> 1)
   node_diagram_impl!
