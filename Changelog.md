@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.0.0, 2020-06-02
+
+### Added
+
+- FUNDING.yml.
+
+### Edited
+
+- Bumped diagram_comp dependency version and linked_list_comp dependency
+ version.
+
+### Fixed
+
 ## v0.3.0, 2020-05-30
 
 ### Added
