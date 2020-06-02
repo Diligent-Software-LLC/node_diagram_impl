@@ -1,7 +1,7 @@
 # Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
-# require 'diagram_comp'
+require 'diagram_comp'
 
 # NodeDiagram.
 # @class_description
@@ -16,6 +16,6 @@
 #   The lower row's right padding.
 # @attr kind [String]
 #   The Node kind. Either 'lone', 'base', 'common', or 'pioneer'.
-class NodeDiagram #< Diagram
+class NodeDiagram < Diagram
   VERSION = '1.0.0'.freeze()
 end
