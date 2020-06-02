@@ -6,4 +6,4 @@ rvm:
   - 2.6.5
 before_install:
   - gem install bundler -v 2.1.2
-  - gem install node_comp, '~> 1' --development-all
+  - gem install node_comp, '>= 1', '<= 2' --development-all
