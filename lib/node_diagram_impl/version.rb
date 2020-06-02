@@ -17,5 +17,5 @@ require 'diagram_comp'
 # @attr kind [String]
 #   The Node kind. Either 'lone', 'base', 'common', or 'pioneer'.
 class NodeDiagram < Diagram
-  VERSION = '0.3.0'.freeze()
+  VERSION = '1.0.0'.freeze()
 end
