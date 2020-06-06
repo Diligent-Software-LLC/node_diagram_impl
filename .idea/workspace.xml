@@ -590,10 +590,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="411" y="183" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.975@0.23.1680.975" timestamp="1588257636775" />
-    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2" timestamp="1591480684641">
+    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2" timestamp="1591480771489">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591480684641" />
+    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591480771489" />
     <state x="189" y="123" width="1391" height="774" key="DiffContextDialog" timestamp="1589836935081">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -602,22 +602,22 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="642" y="434" key="GitRewordDialog/0.23.1680.975@0.23.1680.975" timestamp="1591480356192" />
-    <state width="1566" height="269" key="GridCell.Tab.0.bottom" timestamp="1591480295847">
+    <state width="1566" height="269" key="GridCell.Tab.0.bottom" timestamp="1591480937112">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1591480295847" />
-    <state width="1566" height="269" key="GridCell.Tab.0.center" timestamp="1591480295844">
+    <state width="1566" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1591480937112" />
+    <state width="1566" height="269" key="GridCell.Tab.0.center" timestamp="1591480937110">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1591480295844" />
-    <state width="1566" height="269" key="GridCell.Tab.0.left" timestamp="1591480295844">
+    <state width="1566" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1591480937110" />
+    <state width="1566" height="269" key="GridCell.Tab.0.left" timestamp="1591480937108">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1591480295844" />
-    <state width="1566" height="269" key="GridCell.Tab.0.right" timestamp="1591480295845">
+    <state width="1566" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1591480937108" />
+    <state width="1566" height="269" key="GridCell.Tab.0.right" timestamp="1591480937112">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1591480295845" />
+    <state width="1566" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1591480937112" />
     <state x="427" y="252" key="IDE.errors.dialog" timestamp="1591109720160">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -626,10 +626,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="348" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1591475201122" />
-    <state x="438" y="250" key="Vcs.Push.Dialog.v2" timestamp="1591480686297">
+    <state x="438" y="250" key="Vcs.Push.Dialog.v2" timestamp="1591480783076">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="438" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1591480686297" />
+    <state x="438" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1591480783076" />
     <state x="426" y="235" width="816" height="550" key="find.popup" timestamp="1589831300983">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -652,6 +652,6 @@
     <SUITE FILE_PATH="coverage/node_diagram_impl@test_lb_x.rcov" NAME="test_lb_x Coverage Results" MODIFIED="1588288291590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
     <SUITE FILE_PATH="coverage/node_diagram_impl@test_row_x2.rcov" NAME="test_row_x2 Coverage Results" MODIFIED="1588291831798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
     <SUITE FILE_PATH="coverage/node_diagram_impl@test_dlpq_x6.rcov" NAME="test_dlpq_x6 Coverage Results" MODIFIED="1588293818204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
-    <SUITE FILE_PATH="coverage/node_diagram_impl@NodeDiagramTest.rcov" NAME="NodeDiagramTest Coverage Results" MODIFIED="1591479242540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
+    <SUITE FILE_PATH="coverage/node_diagram_impl@NodeDiagramTest.rcov" NAME="NodeDiagramTest Coverage Results" MODIFIED="1591480967431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
   </component>
 </project>
