@@ -25,11 +25,10 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824ea938-6d29-4aed-82ba-7f40135e282b" name="Default Changelist" comment="Prepare Deployment&#10;&#10;Moved tests to library. Testing dependency bug.">
+    <list default="true" id="824ea938-6d29-4aed-82ba-7f40135e282b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/node_diagram_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_diagram_impl.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/node_diagram_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_diagram_impl/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_diagram_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_diagram_impl_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +268,7 @@
       <workItem from="1590853957993" duration="3191000" />
       <workItem from="1591106091185" duration="6739000" />
       <workItem from="1591115934867" duration="172000" />
-      <workItem from="1591475184424" duration="612000" />
+      <workItem from="1591475184424" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added the Gem Specification file. Added the README.md.">
       <created>1588200901839</created>
@@ -481,7 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591479323132</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Prepare Deployment&#10;&#10;Testing dependency bug.">
+      <created>1591479638776</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591479638776</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Prepare Deployment&#10;&#10;Testing dependency bug.">
+      <created>1591479786838</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591479786838</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Diagram Subsystem:{ Node } Component: Implementation Sprints: 5 State: {Prepare Deployment}" />
@@ -518,9 +531,9 @@
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Major Version. Bumped diagram_comp dependency version and linked_list_comp dependency version." />
     <MESSAGE value="Development Complete&#10;&#10;Updated Gemfile.lock. Added FUNDING.yml." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
-    <MESSAGE value="Prepare Deployment&#10;&#10;Testing dependency bug." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Moved tests to library. Testing dependency bug." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Moved tests to library. Testing dependency bug." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Testing dependency bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Testing dependency bug." />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="175" key="#Servers" timestamp="1588199079754">
@@ -531,10 +544,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="411" y="183" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.975@0.23.1680.975" timestamp="1588257636775" />
-    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2" timestamp="1591479777766">
+    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2" timestamp="1591479786313">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591479777766" />
+    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591479786313" />
     <state x="189" y="123" width="1391" height="774" key="DiffContextDialog" timestamp="1589836935081">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -567,10 +580,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="348" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1591475201122" />
-    <state x="438" y="250" key="Vcs.Push.Dialog.v2" timestamp="1591479641954">
+    <state x="438" y="250" key="Vcs.Push.Dialog.v2" timestamp="1591479788362">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="438" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1591479641954" />
+    <state x="438" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1591479788362" />
     <state x="426" y="235" width="816" height="550" key="find.popup" timestamp="1589831300983">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
