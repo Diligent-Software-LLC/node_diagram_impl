@@ -6,6 +6,17 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    data_error (3.0.0)
+      data_error_impl (~> 3)
+      data_error_int (~> 3)
+    data_error_impl (3.0.0)
+    data_error_int (3.0.0)
+    data_impl (0.2.0)
+    data_int (0.2.0)
+    data_library (0.2.0)
+      data_error (~> 3)
+      data_impl (~> 0)
+      data_int (~> 0)
     diagram_comp (1.0.0)
       diagram_impl (~> 1)
       diagram_int (~> 0)
@@ -34,6 +45,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.1)
+  data_library (~> 0)
   diagram_comp (~> 1)
   linked_list_comp (~> 1)
   minitest (~> 5.0)
