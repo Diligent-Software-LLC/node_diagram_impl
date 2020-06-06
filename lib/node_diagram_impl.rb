@@ -16,7 +16,7 @@ require_relative "node_diagram_impl/version"
 #   The lower row's right padding.
 # @attr kind [String]
 #   The Node kind. Either 'lone', 'base', 'common', or 'pioneer'.
-class NodeDiagram < Diagram
+class NodeDiagram #< Diagram
 
   # self.base_label().
   # @description
