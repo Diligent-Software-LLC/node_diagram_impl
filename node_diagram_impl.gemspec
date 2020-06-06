@@ -46,5 +46,6 @@ appreciated.}
   spec.add_development_dependency 'node_comp', '~> 1'
   spec.add_development_dependency 'linked_list_comp', '~> 1'
   spec.add_development_dependency 'data_library', '~> 0'
+  spec.add_development_dependency 'node_error', '~> 4'
 
 end
