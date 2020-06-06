@@ -1,15 +1,17 @@
 # Changelog
 
-## v1.0.0, 2020-06-02
+## v1.0.0, 2020-06-06
 
 ### Added
 
 - FUNDING.yml.
+- data_library, node_error, and diagram_factory_comp development dependencies.
 
 ### Edited
 
 - Bumped diagram_comp dependency version and linked_list_comp dependency
  version.
+- Deleted integration tests.
 
 ### Fixed
 
