@@ -42,8 +42,6 @@ class NodeDiagramTest < Minitest::Test
   # @description
   #   Set fixtures.
   def setup()
-    # @node1 = Node.new(nil, nil, nil)
-    # @node2 = Node.new(nil, :test_symbol, nil)
   end
 
   # NodeDiagram.base_label().
