@@ -26,8 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="824ea938-6d29-4aed-82ba-7f40135e282b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/node_diagram_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node_diagram_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/node_diagram_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_diagram_impl_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="ytplugin.issueListCompactView" value="true" />
   </component>
   <component name="RecentsManager">
@@ -265,7 +267,9 @@
       <workItem from="1590769066405" duration="1342000" />
       <workItem from="1590782777252" duration="656000" />
       <workItem from="1590853957993" duration="3191000" />
-      <workItem from="1591106091185" duration="6474000" />
+      <workItem from="1591106091185" duration="6739000" />
+      <workItem from="1591115934867" duration="172000" />
+      <workItem from="1591475184424" duration="173000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added the Gem Specification file. Added the README.md.">
       <created>1588200901839</created>
@@ -456,7 +460,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591113907812</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Prepare Deployment&#10;&#10;Testing dependency bug.">
+      <created>1591114364022</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591114364022</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Prepare Deployment&#10;&#10;Testing dependency bug.">
+      <created>1591114557002</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591114557002</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Diagram Subsystem:{ Node } Component: Implementation Sprints: 5 State: {Prepare Deployment}" />
@@ -505,38 +523,42 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="411" y="183" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.975@0.23.1680.975" timestamp="1588257636775" />
-    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2" timestamp="1591114363759">
+    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2" timestamp="1591114556735">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591114363759" />
+    <state x="62" y="46" width="1545" height="905" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1591114556735" />
     <state x="189" y="123" width="1391" height="774" key="DiffContextDialog" timestamp="1589836935081">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="189" y="123" width="1391" height="774" key="DiffContextDialog/0.23.1680.975@0.23.1680.975" timestamp="1589836935081" />
-    <state width="1566" height="269" key="GridCell.Tab.0.bottom" timestamp="1591109792217">
+    <state width="1566" height="269" key="GridCell.Tab.0.bottom" timestamp="1591479247217">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1591109792217" />
-    <state width="1566" height="269" key="GridCell.Tab.0.center" timestamp="1591109792216">
+    <state width="1566" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1591479247217" />
+    <state width="1566" height="269" key="GridCell.Tab.0.center" timestamp="1591479247216">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1591109792216" />
-    <state width="1566" height="269" key="GridCell.Tab.0.left" timestamp="1591109792216">
+    <state width="1566" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1591479247216" />
+    <state width="1566" height="269" key="GridCell.Tab.0.left" timestamp="1591479247216">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1591109792216" />
-    <state width="1566" height="269" key="GridCell.Tab.0.right" timestamp="1591109792217">
+    <state width="1566" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1591479247216" />
+    <state width="1566" height="269" key="GridCell.Tab.0.right" timestamp="1591479247216">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1591109792217" />
+    <state width="1566" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1591479247216" />
     <state x="427" y="252" key="IDE.errors.dialog" timestamp="1591109720160">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="427" y="252" key="IDE.errors.dialog/0.23.1680.975@0.23.1680.975" timestamp="1591109720160" />
-    <state x="438" y="250" key="Vcs.Push.Dialog.v2" timestamp="1591114365443">
+    <state x="348" y="149" key="SettingsEditor" timestamp="1591475201122">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="438" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1591114365443" />
+    <state x="348" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1591475201122" />
+    <state x="438" y="250" key="Vcs.Push.Dialog.v2" timestamp="1591114558587">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="438" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1591114558587" />
     <state x="426" y="235" width="816" height="550" key="find.popup" timestamp="1589831300983">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -559,6 +581,6 @@
     <SUITE FILE_PATH="coverage/node_diagram_impl@test_lb_x.rcov" NAME="test_lb_x Coverage Results" MODIFIED="1588288291590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
     <SUITE FILE_PATH="coverage/node_diagram_impl@test_row_x2.rcov" NAME="test_row_x2 Coverage Results" MODIFIED="1588291831798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
     <SUITE FILE_PATH="coverage/node_diagram_impl@test_dlpq_x6.rcov" NAME="test_dlpq_x6 Coverage Results" MODIFIED="1588293818204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
-    <SUITE FILE_PATH="coverage/node_diagram_impl@NodeDiagramTest.rcov" NAME="NodeDiagramTest Coverage Results" MODIFIED="1591109778975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
+    <SUITE FILE_PATH="coverage/node_diagram_impl@NodeDiagramTest.rcov" NAME="NodeDiagramTest Coverage Results" MODIFIED="1591479242540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_diagram_impl" />
   </component>
 </project>
