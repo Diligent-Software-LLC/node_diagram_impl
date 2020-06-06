@@ -10,4 +10,4 @@ before_install:
   - gem install node_comp -v '< 2'
   - gem install linked_list_comp -v '< 2'
   - gem install data_library -v '< 1'
-  - gem install node_error_library -v '< 5'
+  - gem install node_error -v '< 5'
